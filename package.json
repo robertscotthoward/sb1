@@ -2,5 +2,11 @@
   "name": "js",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "start": "lite-server -c browsersync.config.js"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
